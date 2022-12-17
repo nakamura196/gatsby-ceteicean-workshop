@@ -1,0 +1,635 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 4.22.0"/><style data-href="/gatsby-ceteicean-workshop/styles.c61647f2295fe88252c4.css" data-identity="gatsby-global-css">.Pb{border:2px solid coral;display:block;padding:.5em}.Popup{background-color:#faebd7;border:2px solid #cd5c5c;box-shadow:0 2px 1px -1px rgba(0,0,0,.2),0 1px 1px 3px rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12);min-height:150px;min-width:500px;padding:1em;position:absolute;right:15%;top:25%}.Popup .Close{cursor:pointer;position:absolute;right:5px;top:5px}.Note{background-color:#cd5c5c;border-radius:1em;cursor:pointer;display:inline-block;min-width:2em;text-align:center}.PlaceName{color:#cd5c5c;cursor:pointer;font-weight:600}body,html{margin:0}a{text-decoration:none}[lang*=-Arab-AR],[lang=ar],[lang=fa],[lang=he],[lang=ota]{direction:rtl;text-align:right}[lang*=ar-Latn-],[lang*=ota-Latn-],[lang=de],[lang=en],[lang=fr],[lang=it]{direction:ltr;text-align:left}tei-choice tei-abbr+tei-expan:before,tei-choice tei-corr+tei-sic:before,tei-choice tei-expan+tei-abbr:before,tei-choice tei-orig+tei-reg:before,tei-choice tei-reg+tei-orig:before,tei-choice tei-sic+tei-corr:before{content:" ("}tei-choice tei-abbr+tei-expan:after,tei-choice tei-corr+tei-sic:after,tei-choice tei-expan+tei-abbr:after,tei-choice tei-orig+tei-reg:after,tei-choice tei-reg+tei-orig:after,tei-choice tei-sic+tei-corr:after{content:")"}tei-ab{margin-bottom:1em;margin-top:1em}tei-ab,tei-accMat{display:block}tei-accMat:before{content:"accompanying materials: "}tei-acquisition{display:block;margin-bottom:0;margin-top:0}tei-acquisition:before{content:"acquisition";font-weight:700}tei-activity{display:block}tei-activity:before{content:"activity: "}tei-add[place=above]{vertical-align:super}tei-add[place=inline]:before{content:"«"}tei-add[place=inline]:after{content:"»"}tei-add[place=below]{vertical-align:sub}tei-additional,tei-additions{display:block}tei-additions:before{content:"Significant additions within the document: "}addresss[data-tei-rendition~="#block"],tei-addrLine,tei-address[data-tei-rend~=block],tei-adminInfo{display:block}tei-app tei-note{display:none}tei-appInfo{display:block}tei-appInfo:before{content:"Application information: "}tei-application{display:block}tei-application:after{content:" " attr(version)}tei-argument{display:block}tei-att{font-family:Courier,monospace}tei-att:before{content:"@"}tei-titlestmt>tei-author{display:block;margin-bottom:1em}tei-publicationstmt>tei-availability{font-size:80%}tei-publicationstmt>tei-availability:before{content:"Availability: ";font-weight:700}tei-publicationstmt>tei-availability[data-tei-status]:before{content:"Availability (" attr(status) "): ";font-weight:700}tei-back{display:block}bibl[data-tei-rendition~="#block"],tei-bibl[data-tei-rend~=block]{display:block;padding-left:2em;text-indent:-2em}tei-biblFull,tei-binding{display:block}tei-binding:before{content:"Binding: \a";white-space:pre-wrap}tei-binding[data-tei-contemporary]:before{content:"Binding: \A" "Contemporary: " attr(contemporary) "\A";white-space:pre-wrap}tei-bindingdesc{display:block}tei-bindngdesc:before{content:"Binding description: \A"}tei-birth{display:block}tei-birth:before{content:"Birth: "}tei-cRefPattern{display:none}tei-caption{display:block;margin-bottom:1em;margin-top:1em}tei-case[data-tei-value]:before{content:attr(value) " ";font-weight:700}tei-castgroup{display:block;margin-bottom:1em;margin-top:1em}tei-castitem{display:list-item}tei-castlist{list-style-type:none;margin-left:2em}tei-castlist,tei-cb{display:block;margin-bottom:1em;margin-top:1em}tei-cb:before{content:"[column break]"}tei-cell{border-bottom:thin solid #000;border-right:thin solid #000;padding:2px}tei-cell[data-tei-role=label]{font-weight:700}tei-climate{display:block;margin-bottom:1em;margin-top:1em}tei-climate:before{content:"Climate: ";font-weight:700}tei-code{font-family:Courier,monospace}tei-collation,tei-condition,tei-constitution{display:block;margin-bottom:1em;margin-top:1em}tei-constitution:before{content:"Constitution: ";font-weight:700}tei-constitution[data-tei-type]{display:block;margin-bottom:1em;margin-top:1em}tei-constitution[data-tei-type]:before{content:"Constitution (" attr(type) "): ";font-weight:700}tei-constitution[data-tei-type=frags]{display:block;margin-bottom:1em;margin-top:1em}tei-constitution[data-tei-type=frags]:before{content:"Constitution (fragments): ";font-weight:700}tei-custevent{display:list-item}tei-custodialhist{display:block;margin-bottom:1em;margin-top:1em}tei-date[data-tei-when]:empty:before{content:attr(when)}tei-editionstmt,teieg-egxml{display:block}teieg-egxml{border-left:1px solid #aaa;font-family:monospace;font-size:80%;margin-bottom:.75em;margin-left:1em;margin-top:.75em;padding-bottom:.75em;padding-left:1em;padding-top:.75em;white-space:pre}tei-emph{font-style:italic}tei-encodingdesc{display:none}tei-epigraph{display:block;margin-bottom:1em;margin-top:1em}tei-explicit{font-style:italic}tei-filedesc>tei-extent{display:none}tei-figure{display:block;margin-left:auto;margin-right:auto;text-align:center}tei-gap[data-tei-reason=lost]:before{content:"["}tei-gap[data-tei-reason=lost]:after{content:attr(data-content) "]"}tei-gap[data-tei-reason=illegible]:after{content:attr(data-content)}tei-gi{font-family:Courier,monospace}tei-gi:before{content:"<"}tei-gi:after{content:">"}tei-head{display:block;font-family:Arvo,sans-serif;font-weight:400}tei-body>tei-head{font-size:180%;text-indent:-.5em}tei-div.textpart{display:none}tei-div>tei-head{font-size:170%;text-indent:-.5em}tei-div>tei-div>tei-head{font-size:155%}tei-div>tei-div>tei-div>tei-head{font-size:140%}list>tei-head,tei-div>tei-div>tei-div>tei-div>tei-head{font-size:130%}tei-div>tei-div>tei-div>tei-div>tei-div>tei-head{font-size:120%}tei-div>tei-div>tei-div>tei-div>tei-div>tei-div tei-head{font-size:110%}tei-figure>tei-head{background:#fafafa;border:1px solid #aaa;border-radius:15px;box-shadow:0 1px 3px rgba(0,0,0,.25);display:block;font-family:Georgia,Serif;font-size:85%;font-size:13pt;margin:1.5em auto;padding:.5em 1.5em 1.5em;position:relative;text-align:justify;text-indent:0;width:325px;width:85%}tei-hi[rend~=caps]{font-weight:700}tei-hi[rend~=italic]{font-style:italic}tei-hi[rend~=underline]{text-decoration:underline}tei-ident{font-family:Courier,monospace}tei-incipit{font-style:italic}tei-item{display:list-item}tei-cell item,tei-item{margin-left:1em}tei-l{display:block;width:35em}tei-l[data-lineno]:before{content:attr(data-lineno);left:2em;position:absolute}tei-lb:after{content:"\a";white-space:pre}tei-lg,tei-list{display:block;margin-bottom:1em;margin-top:1em}tei-list{list-style-type:none}tei-item>tei-list{margin-top:0}tei-sourcedesc tei-list{list-style-type:none}tei-sourcedesc>tei-list>tei-head{font-size:140%;font-weight:700}tei-sourcedesc tei-list>tei-item{display:list-item}tei-text tei-list[type=simple]{list-style-type:none}tei-text tei-list[type=bulleted]{list-style-type:disc}tei-text tei-list[type=ordered]{counter-reset:items 0;list-style-type:none}tei-text tei-list[type=ordered]>tei-item{display:list-item;margin-left:0}tei-text tei-list[type=ordered]>item:before{content:counter(items,decimal) ". ";counter-increment:items 1}tei-text tei-list[type=gloss]{list-style-type:none}tei-list[type=gloss]>tei-label{display:block;font-weight:700;margin-bottom:.25em;margin-top:.25em}tei-list[type=gloss]>tei-item{margin-left:2em}tei-item>tei-list[type=ordered]{margin-left:1em}tei-listapp{display:block;margin:1em;padding:1em}tei-listbibl{display:block;list-style-type:none;margin-left:.5 em;margin-top:.5em}tei-listbibl>tei-head{font-size:120%;font-weight:700}tei-listbibl>tei-bibl{display:list-item;margin-left:.5em}tei-listwit{display:block;list-style-type:none;margin-left:.5em}tei-listwit>tei-head{font-size:120%;font-weight:700}tei-listwit>tei-witness{display:list-item;margin-left:2em;text-indent:-1.1em}tei-witness>tei-listwit,tei-witness>tei-listwit>tei-head,tei-witness>tei-listwit>tei-witness{display:inline}tei-locus{display:none}tei-milestone{display:none;margin-left:auto;margin-right:auto;text-align:center}tei-musicNotation{font-weight:700}tei-musicNotation:before{content:"Musical Notation: ";font-weight:700}tei-node,tei-notesstmt{display:none}tei-ovar{font-style:italic}tei-origPlace{font-weight:700}tei-origPlace:before{content:"Place of Origin: ";font-weight:700}tei-p{display:block;margin-bottom:1em;margin-top:1em;text-align:justify}[data-tei-rendition~="#center"] p{text-align:center}tei-availability>p:first-child{margin-top:0}tei-performance,tei-person,tei-personGrp{display:block;margin-bottom:1em;margin-top:1em}tei-postscript{display:block;margin-top:2em}tei-principal{font-weight:700}tei-principal:before{content:"Principal: ";font-weight:700}tei-profiledesc,tei-publicationstmt>*{display:none}tei-publicationstmt{display:block;margin-bottom:1em;margin-top:1em}tei-publicationstmt>date,tei-publicationstmt>publisher{display:none}tei-q{quotes:"\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d"}tei-q:after,tei-q:before{content:""}tei-q[data-tei-next]:after,tei-q[data-tei-prev]:before{content:""!important}tei-quote{font-style:italic}tei-app tei-rdg{display:none}tei-re{display:block;margin-bottom:0;margin-top:0}tei-recordhist{display:block;margin-bottom:1em;margin-top:1em}tei-ref{color:#5f0000;cursor:pointer;text-decoration:underline}tei-remarks{font-weight:700}tei-remarks:before{content:"remarks: ";font-weight:700}tei-respstmt{display:block;margin-bottom:0;margin-top:0}tei-revisiondesc{display:none}tei-row{display:grid;grid-auto-columns:1fr;grid-auto-flow:column}tei-salute{display:block;margin-bottom:1em;margin-top:1em}tei-samplingdecl{display:block;margin-bottom:0;margin-top:0}tei-scriptnote{display:block;margin-bottom:1em;margin-top:1em}tei-seal{display:block;margin-bottom:0;margin-top:0}tei-seal:before{content:"Seal: ";font-weight:700}tei-sealdesc{display:block;margin-bottom:1em;margin-top:1em}tei-secFol:before{content:"Second Folio: ";font-weight:700}tei-secl>:first-child:before{content:"\a[";white-space:pre}tei-secl>:last-child:after{content:"]\a\a";white-space:pre}tei-seg{outline:0 solid transparent}tei-sense{display:block;margin-bottom:0;margin-top:0}tei-seriesstmt{display:none}tei-setting{display:block;margin-bottom:0;margin-top:0}tei-signed{display:block;margin-top:2em}tei-soCalled{quotes:"\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d"}tei-soCalled:before{content:open-quote}tei-soCalled:after{content:close-quote}tei-soCalled[data-tei-next]:after,tei-soCalled[data-tei-prev]:before{content:""!important}tei-sound{font-style:italic}tei-source{display:block;margin-bottom:0;margin-top:0}tei-sourcedesc{display:none}tei-space:before{content:"";font-weight:700}tei-span[data-tei-data-n]:before{content:attr(data-n)}tei-speaker{font-weight:700;margin-right:0}tei-sponsor{display:block;margin-bottom:0;margin-top:0}tei-sponsor:before{content:"Sponsor:";font-weight:700}tei-stage{font-style:italic}tei-stage,tei-stamp{display:block;margin-bottom:1em;margin-top:1em}tei-stamp:before{content:"Stamped: ";font-weight:700}tei-surplus>:first-child:before{content:"\a[";white-space:pre}tei-surplus>:last-child:after{content:"]\a\a";white-space:pre}tei-table,tei-tei{display:block}tei-table{border-left:thin solid #000;border-top:thin solid #000;font-size:12pt;margin-bottom:2em;margin-top:2em}tei-table>tei-head{border-bottom:thin solid #000;border-right:thin solid #000;font-size:120%;font-weight:700;padding:2px;text-align:center}tei-teiheader{display:block;margin-bottom:2em;margin-top:2em}tei-tei>tei-text{display:block;line-height:1.5}tei-textclass,tei-textdesc{display:none}tei-tei tei-title{display:inline}tei-tei tei-title[level=a]{quotes:"\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d"}tei-tei tei-title[level=a]:before{content:open-quote}tei-tei tei-title[level=a]:after{content:close-quote}tei-tei tei-title[level=a][next]:after,tei-tei tei-title[level=a][prev]:before{content:""!important}tei-title[level=m]{font-style:italic}tei-titlestmt>tei-title{display:block;font-family:Arvo,sans-serif;font-size:150%;font-weight:400;font-weight:700!important}tei-typedesc{display:none}tei-u:before{content:"-"}tei-view{font-style:italic}tei-wit{display:inline}tei-witdetail{display:none}tei-del{text-decoration:line-through}tei-add{color:#cd5c5c}</style><style data-emotion="css 1x7skt0 i6s8oy 1a3lqbo b7766g 1qsxih2 16ybtzv a2yyq6 1yqxwau rdifmp 1c0wj8h">.css-1x7skt0{background-color:#fff;color:rgba(0, 0, 0, 0.87);-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;box-shadow:0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;width:100%;box-sizing:border-box;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;position:static;background-color:#1976d2;color:#fff;}.css-i6s8oy{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-left:16px;padding-right:16px;min-height:56px;}@media (min-width:600px){.css-i6s8oy{padding-left:24px;padding-right:24px;}}@media (min-width:0px){@media (orientation: landscape){.css-i6s8oy{min-height:48px;}}}@media (min-width:600px){.css-i6s8oy{min-height:64px;}}.css-1a3lqbo{margin:0;font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:500;font-size:1.25rem;line-height:1.6;letter-spacing:0.0075em;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;}.css-b7766g{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:6px 8px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:inherit;border-color:currentColor;}.css-b7766g::-moz-focus-inner{border-style:none;}.css-b7766g.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-b7766g{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-b7766g:hover{-webkit-text-decoration:none;text-decoration:none;background-color:rgba(0, 0, 0, 0.04);}@media (hover: none){.css-b7766g:hover{background-color:transparent;}}.css-b7766g.Mui-disabled{color:rgba(0, 0, 0, 0.26);}.css-1qsxih2{width:100%;margin-left:auto;box-sizing:border-box;margin-right:auto;display:block;padding-left:16px;padding-right:16px;}@media (min-width:600px){.css-1qsxih2{padding-left:24px;padding-right:24px;}}@media (min-width:1200px){.css-1qsxih2{max-width:1200px;}}.css-16ybtzv{background-color:#fff;padding:48px;}.css-a2yyq6{margin:0;font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:500;font-size:1.25rem;line-height:1.6;letter-spacing:0.0075em;text-align:center;margin-bottom:0.35em;}.css-1yqxwau{margin:0;font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:400;font-size:1rem;line-height:1.75;letter-spacing:0.00938em;text-align:center;color:rgba(0, 0, 0, 0.6);}.css-rdifmp{margin:0;font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:400;font-size:0.875rem;line-height:1.43;letter-spacing:0.01071em;text-align:center;color:rgba(0, 0, 0, 0.6);}.css-1c0wj8h{margin:0;color:inherit;-webkit-text-decoration:underline;text-decoration:underline;color:inherit;}.css-1c0wj8h:hover{text-decoration-color:inherit;}</style></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><title>校異源氏物語 powerd by Gatsby CETEIcean</title><header class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-1x7skt0"><div class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy"><div class="MuiTypography-root MuiTypography-h6 css-1a3lqbo"><a style="color:inherit" href="/gatsby-ceteicean-workshop/">校異源氏物語 powerd by Gatsby CETEIcean</a></div><button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textInherit MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorInherit MuiButton-root MuiButton-text MuiButton-textInherit MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorInherit css-b7766g" tabindex="0" type="button"><a style="color:inherit" href="/gatsby-ceteicean-workshop/">Home</a></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textInherit MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorInherit MuiButton-root MuiButton-text MuiButton-textInherit MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorInherit css-b7766g" tabindex="0" type="button"><a style="color:inherit" href="/gatsby-ceteicean-workshop/about">About</a></button></div></header><div class="MuiContainer-root MuiContainer-maxWidthLg css-1qsxih2"><main class="Content"><tei-tei data-xmlns="http://www.tei-c.org/ns/1.0" data-origname="TEI" data-origatts="xmlns">
+   <tei-teiheader data-origname="teiHeader"><tei-teiHeader><span hidden="" aria-hidden="true" data-original="true"><tei-teiHeader data-origname="teiHeader">
+      <tei-fileDesc data-origname="fileDesc">
+         <tei-titleStmt data-origname="titleStmt">
+            <tei-title data-origname="title">校異源氏物語・さわらひ</tei-title>
+            <tei-author data-origname="author">池田亀鑑</tei-author>
+            <tei-respStmt data-origname="respStmt">
+               <tei-resp when="2020-08-22" data-origname="resp" data-origatts="when">Transcription</tei-resp>
+               <tei-name data-origname="name">Misa Nakamura</tei-name>
+            </tei-respStmt>
+            <tei-respStmt data-origname="respStmt">
+               <tei-resp when="2020-08-22" data-origname="resp" data-origatts="when">Transcription</tei-resp>
+               <tei-name data-origname="name">Michi Kigoshi</tei-name>
+            </tei-respStmt>
+            <tei-respStmt data-origname="respStmt">
+               <tei-resp when="2020-08-22" data-origname="resp" data-origatts="when">Transcription</tei-resp>
+               <tei-name data-origname="name">Takashi Tamura</tei-name>
+            </tei-respStmt>
+            <tei-respStmt data-origname="respStmt">
+               <tei-resp when="2020-08-22" data-origname="resp" data-origatts="when">TEI Encoding</tei-resp>
+               <tei-name data-origname="name">Satoru Nakamura</tei-name>
+            </tei-respStmt>
+            <tei-respStmt data-origname="respStmt">
+               <tei-resp when="2020-08-22" data-origname="resp" data-origatts="when">Advisor</tei-resp>
+               <tei-name data-origname="name">Kiyonori Nagasaki</tei-name>
+            </tei-respStmt>
+         </tei-titleStmt>
+         <tei-publicationStmt data-origname="publicationStmt">
+            <tei-distributor data-origname="distributor">デジタル源氏物語</tei-distributor>
+            <tei-date when="2020-08-22" data-origname="date" data-origatts="when">2020年08月22日</tei-date>
+            <tei-availability data-origname="availability">
+               <tei-p data-origname="p">
+                  <tei-ref target="https://creativecommons.org/publicdomain/zero/1.0/" data-origname="ref" data-origatts="target">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</tei-ref>
+               </tei-p>
+            </tei-availability>
+         </tei-publicationStmt>
+         <tei-sourceDesc data-origname="sourceDesc">
+            <tei-bibl data-origname="bibl">
+               <tei-author data-origname="author">池田亀鑑</tei-author>
+               <tei-title data-origname="title">校異源氏物語</tei-title>
+               <tei-publisher data-origname="publisher">中央公論社</tei-publisher>
+            </tei-bibl>
+         </tei-sourceDesc>
+      </tei-fileDesc>
+      <tei-encodingDesc data-origname="encodingDesc">
+         <tei-p data-origname="p">旧字は<tei-ref target="https://wwwap.hi.u-tokyo.ac.jp/ships/itaiji_list.jsp" data-origname="ref" data-origatts="target">史料編纂所データベース異体字同定一覧</tei-ref>を用いて新字に変換した。</tei-p>
+      </tei-encodingDesc>
+   </tei-teiHeader></span></tei-teiHeader></tei-teiheader>
+   <tei-facsimile data-origname="facsimile">
+      <tei-surfacegrp facs="https://www.dl.ndl.go.jp/api/iiif/3437690/manifest.json" data-origname="surfaceGrp" data-origatts="facs">
+         <tei-surface data-origname="surface">
+            <tei-graphic n="https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/7" url="https://www.dl.ndl.go.jp/api/iiif/3437690/R0000007/full/full/0/default.jpg" data-origname="graphic" data-origatts="url n" data-empty=""></tei-graphic>
+            <tei-zone xml:id="zone_1677" id="zone_1677" lrx="3460" lry="4828" ulx="0" uly="0" data-origname="zone" data-origatts="uly ulx lry lrx xml:id" data-empty=""></tei-zone>
+         </tei-surface>
+         <tei-surface data-origname="surface">
+            <tei-graphic n="https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/8" url="https://www.dl.ndl.go.jp/api/iiif/3437690/R0000008/full/full/0/default.jpg" data-origname="graphic" data-origatts="url n" data-empty=""></tei-graphic>
+            <tei-zone xml:id="zone_1678" id="zone_1678" lrx="6921" lry="4828" ulx="3460" uly="0" data-origname="zone" data-origatts="uly ulx lry lrx xml:id" data-empty=""></tei-zone>
+            <tei-zone xml:id="zone_1679" id="zone_1679" lrx="3460" lry="4828" ulx="0" uly="0" data-origname="zone" data-origatts="uly ulx lry lrx xml:id" data-empty=""></tei-zone>
+         </tei-surface>
+         <tei-surface data-origname="surface">
+            <tei-graphic n="https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/9" url="https://www.dl.ndl.go.jp/api/iiif/3437690/R0000009/full/full/0/default.jpg" data-origname="graphic" data-origatts="url n" data-empty=""></tei-graphic>
+            <tei-zone xml:id="zone_1680" id="zone_1680" lrx="6921" lry="4828" ulx="3460" uly="0" data-origname="zone" data-origatts="uly ulx lry lrx xml:id" data-empty=""></tei-zone>
+            <tei-zone xml:id="zone_1681" id="zone_1681" lrx="3460" lry="4828" ulx="0" uly="0" data-origname="zone" data-origatts="uly ulx lry lrx xml:id" data-empty=""></tei-zone>
+         </tei-surface>
+         <tei-surface data-origname="surface">
+            <tei-graphic n="https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/10" url="https://www.dl.ndl.go.jp/api/iiif/3437690/R0000010/full/full/0/default.jpg" data-origname="graphic" data-origatts="url n" data-empty=""></tei-graphic>
+            <tei-zone xml:id="zone_1682" id="zone_1682" lrx="6921" lry="4828" ulx="3460" uly="0" data-origname="zone" data-origatts="uly ulx lry lrx xml:id" data-empty=""></tei-zone>
+            <tei-zone xml:id="zone_1683" id="zone_1683" lrx="3460" lry="4828" ulx="0" uly="0" data-origname="zone" data-origatts="uly ulx lry lrx xml:id" data-empty=""></tei-zone>
+         </tei-surface>
+         <tei-surface data-origname="surface">
+            <tei-graphic n="https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/11" url="https://www.dl.ndl.go.jp/api/iiif/3437690/R0000011/full/full/0/default.jpg" data-origname="graphic" data-origatts="url n" data-empty=""></tei-graphic>
+            <tei-zone xml:id="zone_1684" id="zone_1684" lrx="6921" lry="4828" ulx="3460" uly="0" data-origname="zone" data-origatts="uly ulx lry lrx xml:id" data-empty=""></tei-zone>
+            <tei-zone xml:id="zone_1685" id="zone_1685" lrx="3460" lry="4828" ulx="0" uly="0" data-origname="zone" data-origatts="uly ulx lry lrx xml:id" data-empty=""></tei-zone>
+         </tei-surface>
+         <tei-surface data-origname="surface">
+            <tei-graphic n="https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/12" url="https://www.dl.ndl.go.jp/api/iiif/3437690/R0000012/full/full/0/default.jpg" data-origname="graphic" data-origatts="url n" data-empty=""></tei-graphic>
+            <tei-zone xml:id="zone_1686" id="zone_1686" lrx="6921" lry="4828" ulx="3460" uly="0" data-origname="zone" data-origatts="uly ulx lry lrx xml:id" data-empty=""></tei-zone>
+            <tei-zone xml:id="zone_1687" id="zone_1687" lrx="3460" lry="4828" ulx="0" uly="0" data-origname="zone" data-origatts="uly ulx lry lrx xml:id" data-empty=""></tei-zone>
+         </tei-surface>
+         <tei-surface data-origname="surface">
+            <tei-graphic n="https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/13" url="https://www.dl.ndl.go.jp/api/iiif/3437690/R0000013/full/full/0/default.jpg" data-origname="graphic" data-origatts="url n" data-empty=""></tei-graphic>
+            <tei-zone xml:id="zone_1688" id="zone_1688" lrx="6921" lry="4828" ulx="3460" uly="0" data-origname="zone" data-origatts="uly ulx lry lrx xml:id" data-empty=""></tei-zone>
+            <tei-zone xml:id="zone_1689" id="zone_1689" lrx="3460" lry="4828" ulx="0" uly="0" data-origname="zone" data-origatts="uly ulx lry lrx xml:id" data-empty=""></tei-zone>
+         </tei-surface>
+         <tei-surface data-origname="surface">
+            <tei-graphic n="https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/14" url="https://www.dl.ndl.go.jp/api/iiif/3437690/R0000014/full/full/0/default.jpg" data-origname="graphic" data-origatts="url n" data-empty=""></tei-graphic>
+            <tei-zone xml:id="zone_1690" id="zone_1690" lrx="6921" lry="4828" ulx="3460" uly="0" data-origname="zone" data-origatts="uly ulx lry lrx xml:id" data-empty=""></tei-zone>
+            <tei-zone xml:id="zone_1691" id="zone_1691" lrx="3460" lry="4828" ulx="0" uly="0" data-origname="zone" data-origatts="uly ulx lry lrx xml:id" data-empty=""></tei-zone>
+         </tei-surface>
+         <tei-surface data-origname="surface">
+            <tei-graphic n="https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/15" url="https://www.dl.ndl.go.jp/api/iiif/3437690/R0000015/full/full/0/default.jpg" data-origname="graphic" data-origatts="url n" data-empty=""></tei-graphic>
+            <tei-zone xml:id="zone_1692" id="zone_1692" lrx="6921" lry="4828" ulx="3460" uly="0" data-origname="zone" data-origatts="uly ulx lry lrx xml:id" data-empty=""></tei-zone>
+            <tei-zone xml:id="zone_1693" id="zone_1693" lrx="3460" lry="4828" ulx="0" uly="0" data-origname="zone" data-origatts="uly ulx lry lrx xml:id" data-empty=""></tei-zone>
+         </tei-surface>
+         <tei-surface data-origname="surface">
+            <tei-graphic n="https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/16" url="https://www.dl.ndl.go.jp/api/iiif/3437690/R0000016/full/full/0/default.jpg" data-origname="graphic" data-origatts="url n" data-empty=""></tei-graphic>
+            <tei-zone xml:id="zone_1694" id="zone_1694" lrx="6921" lry="4828" ulx="3460" uly="0" data-origname="zone" data-origatts="uly ulx lry lrx xml:id" data-empty=""></tei-zone>
+         </tei-surface>
+      </tei-surfacegrp>
+   </tei-facsimile>
+   <tei-text data-origname="text">
+      <tei-body data-origname="body">
+         <tei-p data-origname="p">
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-pb><span hidden="" aria-hidden="true" data-original="true"><tei-pb n="1677" facs="#zone_1677" data-origname="pb" data-origatts="facs n" data-empty=""/></span><span class="Pb">Page <!-- -->1677</span></tei-pb>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1677-01.json" data-origname="seg" data-origatts="corresp">やふしわかねは春のひかりをみたまふにつけてもいかてかくなからへにける月</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1677-02.json" data-origname="seg" data-origatts="corresp">日ならむとゆめのやうにのみおほえ給ゆきかふ時〱にしたかひはなとりのい</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1677-03.json" data-origname="seg" data-origatts="corresp">ろをもねをもおなし心におきふしみつゝはかなきことをもゝとすゑをとりてい</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1677-04.json" data-origname="seg" data-origatts="corresp">ひかはし心ほそき世のうさもつらさもうちかたらひあはせきこえしにこそなく</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1677-05.json" data-origname="seg" data-origatts="corresp">さむかたもありしかおかしきことあはれなるふしをもきゝしる人もなきまゝに</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1677-06.json" data-origname="seg" data-origatts="corresp">よろつかきくらし心ひとつをくたきて宮のおはしまさすなりにしかなしさより</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1677-07.json" data-origname="seg" data-origatts="corresp">もやゝうちまさりてこひしくわひしきにいかにせむとあけくるゝもしらすまと</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1677-08.json" data-origname="seg" data-origatts="corresp">はれたまへと世にとまるへきほとはかきりあるわさなりけれはしなれぬもあさ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1677-09.json" data-origname="seg" data-origatts="corresp">ましあさりのもとよりとしあらたまりてはなに事かおはしますらむ御いのりは</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1677-10.json" data-origname="seg" data-origatts="corresp">たゆみなくつかうまつり侍りいまはひとゝころの御ことをなむやすからすねむ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1677-11.json" data-origname="seg" data-origatts="corresp">しきこえさするなときこえてわらひつく〱しおかしきこにいれてこれはわら</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1677-12.json" data-origname="seg" data-origatts="corresp">はへのくやうして侍るはつをなりとてたてまつれりてはいとあしうてうたはわ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1677-13.json" data-origname="seg" data-origatts="corresp">さとかましくひきはなちてそかきたる</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1677-14.json" data-origname="seg" data-origatts="corresp">きみにとてあまたの春をつみしかはつねをわすれぬはつわらひなり御前に</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-pb><span hidden="" aria-hidden="true" data-original="true"><tei-pb n="1678" facs="#zone_1678" data-origname="pb" data-origatts="facs n" data-empty=""/></span><span class="Pb">Page <!-- -->1678</span></tei-pb>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1678-01.json" data-origname="seg" data-origatts="corresp">よみ申さしめたまへとありたいしと思まはしてよみいたしつらむとおほせはう</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1678-02.json" data-origname="seg" data-origatts="corresp">たの心はへもいとあはれにてなをさりにさしもおほさぬなめりとみゆることの</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1678-03.json" data-origname="seg" data-origatts="corresp">はをめてたくこのましけにかきつくしたまへる人の御ふみよりはこよなくめと</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1678-04.json" data-origname="seg" data-origatts="corresp">まりてなみたもこほるれは返事かゝせ給</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1678-05.json" data-origname="seg" data-origatts="corresp">このはるはたれにかみせむなき人のかたみにつめるみねのさわらひつかひ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1678-06.json" data-origname="seg" data-origatts="corresp">にろくとらせさせ給いとさかりにゝほひおほくおはする人のさま〱の御物お</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1678-07.json" data-origname="seg" data-origatts="corresp">もひにすこしうちおもやせたまへるいとあてになまめかしきけしきまさりてむ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1678-08.json" data-origname="seg" data-origatts="corresp">かし人にもおほえ給へりならひたまへりしおりはとり〱にてさらにゝたまへ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1678-09.json" data-origname="seg" data-origatts="corresp">りともみえさりしをうちわすれてはふとそれかとおほゆるまてかよひたまへる</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1678-10.json" data-origname="seg" data-origatts="corresp">を中納言殿のからをたにとゝめてみたてまつる物ならましかはとあさゆふにこ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1678-11.json" data-origname="seg" data-origatts="corresp">ひきこえ給めるにおなしくはみえたてまつり給御すくせならさりけむよとみた</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1678-12.json" data-origname="seg" data-origatts="corresp">てまつる人〱はくちおしかるかの御あたりの人のかよひくるたよりに御あり</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1678-13.json" data-origname="seg" data-origatts="corresp">さまはたえすきゝかはしたまひけりつきせすおもひほれたまひてあたらしきと</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1678-14.json" data-origname="seg" data-origatts="corresp">しともいはすいやめになむなりたまへるときゝ給てもけにうちつけの心あさゝ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-pb><span hidden="" aria-hidden="true" data-original="true"><tei-pb n="1679" facs="#zone_1679" data-origname="pb" data-origatts="facs n" data-empty=""/></span><span class="Pb">Page <!-- -->1679</span></tei-pb>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1679-01.json" data-origname="seg" data-origatts="corresp">には物したまはさりけりといとゝいまそあはれもふかくおもひしらるゝ宮はお</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1679-02.json" data-origname="seg" data-origatts="corresp">はしますことのいとゝころせくありかたけれは京にわたしきこえむとおほした</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1679-03.json" data-origname="seg" data-origatts="corresp">ちにたりないえんなと物さはかしきころすくして中納言の君心にあまることを</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1679-04.json" data-origname="seg" data-origatts="corresp">もまたゝれにかはかたらはむとおほしわひて兵部卿の宮の御かたにまいりたま</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1679-05.json" data-origname="seg" data-origatts="corresp">へりしめやかなるゆふくれなれは宮うちなかめたまひてはしちかくそおはしま</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1679-06.json" data-origname="seg" data-origatts="corresp">しけるさうの御ことかきならしつゝれいの御心よせなるむめのかをめておはす</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1679-07.json" data-origname="seg" data-origatts="corresp">るしつえをゝしおりてまいり給へるにほひのいとえんにめてたきをおりおかし</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1679-08.json" data-origname="seg" data-origatts="corresp">うおほして</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1679-09.json" data-origname="seg" data-origatts="corresp">おる人の心にかよふはなゝれやいろにはいてすしたにゝほへるとのたまへ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1679-10.json" data-origname="seg" data-origatts="corresp">は</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1679-11.json" data-origname="seg" data-origatts="corresp">みる人にかことよせける花のえを心してこそおるへかりけれわつらはしく</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1679-12.json" data-origname="seg" data-origatts="corresp">とたはふれかはしたまへるいとよき御あはひなりこまやかなる御物かたりとも</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1679-13.json" data-origname="seg" data-origatts="corresp">になりてはかの山さとの御ことをそまつはいかにと宮はきこえ給中納言もすき</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1679-14.json" data-origname="seg" data-origatts="corresp">にしかたのあかすかなしきことそのかみよりけふまておもひのたえぬよしおり</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-pb><span hidden="" aria-hidden="true" data-original="true"><tei-pb n="1680" facs="#zone_1680" data-origname="pb" data-origatts="facs n" data-empty=""/></span><span class="Pb">Page <!-- -->1680</span></tei-pb>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1680-01.json" data-origname="seg" data-origatts="corresp">〱につけてあはれにもおかしくもなきみわらひみとかいふらむやうにきこえ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1680-02.json" data-origname="seg" data-origatts="corresp">いて給にましてさはかりいろめかしくなみたもろなる御くせは人の御うへにて</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1680-03.json" data-origname="seg" data-origatts="corresp">さへそてもしほるはかりになりてかゐ〱しくそあひしらひきこえ給めるそら</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1680-04.json" data-origname="seg" data-origatts="corresp">のけしきも又けにそあはれしりかほにかすみわたれるよるになりてはけしうふ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1680-05.json" data-origname="seg" data-origatts="corresp">きいつるかせのけしきまたふゆめきていとさむけにおほとなふらもきえつゝや</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1680-06.json" data-origname="seg" data-origatts="corresp">みはあやなきたと〱しさなれとかたみにきゝさしたまふへくもあらすつきせ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1680-07.json" data-origname="seg" data-origatts="corresp">ぬ御物かたりをえはるけやりたまはて夜もいたうふけぬ世にためしありかたか</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1680-08.json" data-origname="seg" data-origatts="corresp">りける中のむつひをいてさりともいとさのみはあらさりけむとのこりありけに</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1680-09.json" data-origname="seg" data-origatts="corresp">とひなしたまふそわりなき御心ならひなめるかしさりなからも物に心えたまひ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1680-10.json" data-origname="seg" data-origatts="corresp">てなけかしき心のうちもあきらむはかりかつはなくさめまたあはれをもさまし</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1680-11.json" data-origname="seg" data-origatts="corresp">さま〱にかたらひたまふ御さまのおかしきにすかされたてまつりてけに心に</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1680-12.json" data-origname="seg" data-origatts="corresp">あまるまておもひむすほゝるゝことゝもすこしつゝかたりきこえ給そこよなく</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1680-13.json" data-origname="seg" data-origatts="corresp">むねのひまあく心ちしたまふ宮もかの人ちかくわたしきこえてむとするほとの</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1680-14.json" data-origname="seg" data-origatts="corresp">ことゝもかたらひきこえ給をいとうれしきことにも侍かなあいなく身つからの</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-pb><span hidden="" aria-hidden="true" data-original="true"><tei-pb n="1681" facs="#zone_1681" data-origname="pb" data-origatts="facs n" data-empty=""/></span><span class="Pb">Page <!-- -->1681</span></tei-pb>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1681-01.json" data-origname="seg" data-origatts="corresp">あやまちとなむおもふたまへらるゝあかぬむかしのなこりをまたたつぬへきか</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1681-02.json" data-origname="seg" data-origatts="corresp">たも侍らねはおほかたにはなにことにつけても心よせきこゆへき人となむおも</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1681-03.json" data-origname="seg" data-origatts="corresp">ふたまふるをもしひなくやおほしめさるへきとてかのこと人となおもひわきそ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1681-04.json" data-origname="seg" data-origatts="corresp">とゆつり給し心をきてをもすこしはかたりきこえ給へといはせのもりのよふこ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1681-05.json" data-origname="seg" data-origatts="corresp">とりめいたりしよのことはのこしたりけり心のうちにはかくなくさめかたきか</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1681-06.json" data-origname="seg" data-origatts="corresp">たみにもけにさてこそかやうにもあつかひきこゆへかりけれとくやしきことや</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1681-07.json" data-origname="seg" data-origatts="corresp">う〱まさりゆけといまはかひなき物ゆへつねにかうのみおもはゝあるましき</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1681-08.json" data-origname="seg" data-origatts="corresp">心もこそいてくれたかためにもあちきなくおこかましからむと思はなるさても</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1681-09.json" data-origname="seg" data-origatts="corresp">おはしまさんにつけてもまことにおもひうしろみきこえんかたはまたゝれかは</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1681-10.json" data-origname="seg" data-origatts="corresp">とおほせは御わたりのことゝもゝ心まうけせさせ給かしこにもよきわか人わら</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1681-11.json" data-origname="seg" data-origatts="corresp">はなともとめて人〱は心ゆきかほにいそきおもひたれといまはとてこのふし</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1681-12.json" data-origname="seg" data-origatts="corresp">みをあらしはてむもいみしく心ほそけれはなけかれ給ことつきせぬをさりとて</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1681-13.json" data-origname="seg" data-origatts="corresp">も又せめて心こはくたえこもりてもたけかるましくあさからぬ中のちきりもた</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1681-14.json" data-origname="seg" data-origatts="corresp">えはてぬへき御すまゐをいかにおほしえたるそとのみうらみきこえ給もすこし</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-pb><span hidden="" aria-hidden="true" data-original="true"><tei-pb n="1682" facs="#zone_1682" data-origname="pb" data-origatts="facs n" data-empty=""/></span><span class="Pb">Page <!-- -->1682</span></tei-pb>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1682-01.json" data-origname="seg" data-origatts="corresp">はことはりなれはいかゝすへからむとおもひみたれたまへりきさらきのついた</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1682-02.json" data-origname="seg" data-origatts="corresp">ちころとあれはほとちかくなるまゝにはなの木とものけしきはむものこりゆか</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1682-03.json" data-origname="seg" data-origatts="corresp">しくみねのかすみのたつをみすてむこともおのかとこよにてたにあらぬたひね</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1682-04.json" data-origname="seg" data-origatts="corresp">にていかにはしたなく人わらはれなることもこそなとよろつにつゝましく心ひ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1682-05.json" data-origname="seg" data-origatts="corresp">とつにおもひあかしくらしたまふ御ふくもかきりあることなれはぬきすてたま</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1682-06.json" data-origname="seg" data-origatts="corresp">ふにみそきもあさき心ちそするおやひとゝころはみたてまつらさりしかはこひ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1682-07.json" data-origname="seg" data-origatts="corresp">しきことはおもほえすその御かはりにもこのたひの衣をふかくそめむと心には</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1682-08.json" data-origname="seg" data-origatts="corresp">おほしのたまへとさすかにさるへきゆへもなきわさなれはあかすかなしきこと</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1682-09.json" data-origname="seg" data-origatts="corresp">かきりなし中納言とのより御くるま御前の人〱はかせなとたてまつれたまへ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1682-10.json" data-origname="seg" data-origatts="corresp">り</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1682-11.json" data-origname="seg" data-origatts="corresp">はかなしやかすみのころもたちしまに花のひもとくおりもきにけりけにい</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1682-12.json" data-origname="seg" data-origatts="corresp">ろ〱いときよらにてたてまつれたまへり御わたりのほとのかつけものともな</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1682-13.json" data-origname="seg" data-origatts="corresp">とこと〱しからぬ物からしな〱にこまやかにおほしやりつゝいとおほかり</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1682-14.json" data-origname="seg" data-origatts="corresp">おりにつけてはわすれぬさまなる御心よせのありかたくはらからなともえいと</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-pb><span hidden="" aria-hidden="true" data-original="true"><tei-pb n="1683" facs="#zone_1683" data-origname="pb" data-origatts="facs n" data-empty=""/></span><span class="Pb">Page <!-- -->1683</span></tei-pb>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1683-01.json" data-origname="seg" data-origatts="corresp">かうまてはおはせぬわさそなと人〱はきこえしらすあさやかならぬふる人と</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1683-02.json" data-origname="seg" data-origatts="corresp">もの心にはかゝるかたを心にしめてきこゆわかき人は時〱もみたてまつりな</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1683-03.json" data-origname="seg" data-origatts="corresp">らひていまはとことさまになりたまはむをさう〱しくいかにこひしくおほえ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1683-04.json" data-origname="seg" data-origatts="corresp">させたまはんときこえあへり身つからはわたり給はむことあすとてのまたつと</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1683-05.json" data-origname="seg" data-origatts="corresp">めておはしたりれいのまらうとゐのかたにおはするにつけてもいまはやう〱</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1683-06.json" data-origname="seg" data-origatts="corresp">物なれてわれこそ人よりさきにかうやうにもおもひそめしかなとありしさまの</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1683-07.json" data-origname="seg" data-origatts="corresp">たまひし心はへを思いてつゝさすかにかけはなれことのほかになとははしたな</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1683-08.json" data-origname="seg" data-origatts="corresp">めたまはさりしをわか心もてあやしうもへたゝりにしかなとむねいたくおもひ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1683-09.json" data-origname="seg" data-origatts="corresp">つゝけられ給かいはみせしさうしのあなも思いてらるれはよりてみたまへとこ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1683-10.json" data-origname="seg" data-origatts="corresp">の中をはおろしこめたれはいとかひなしうちにも人〱おもひいてきこえつゝ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1683-11.json" data-origname="seg" data-origatts="corresp">うちひそみあへり中の宮はましてもよをさるゝ御なみたのかはにあすのわたり</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1683-12.json" data-origname="seg" data-origatts="corresp">もおほえ給はすほれ〱しけにてなかめふしたまへるにつきころのつもりもそ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1683-13.json" data-origname="seg" data-origatts="corresp">こはかとなけれといふせく思たまへらるゝをかたはしもあきらめきこえさせて</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1683-14.json" data-origname="seg" data-origatts="corresp">なくさめ侍らはやれいのはしたなくなさしはなたせたまひそいとゝあらぬ世の</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-pb><span hidden="" aria-hidden="true" data-original="true"><tei-pb n="1684" facs="#zone_1684" data-origname="pb" data-origatts="facs n" data-empty=""/></span><span class="Pb">Page <!-- -->1684</span></tei-pb>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1684-01.json" data-origname="seg" data-origatts="corresp">心ちし侍りときこえ給へれはゝしたなしとおもはれたてまつらむとしもおもは</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1684-02.json" data-origname="seg" data-origatts="corresp">ねといさや心ちもれいのやうにもおほえすかきみたりつゝいとゝはか〱しか</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1684-03.json" data-origname="seg" data-origatts="corresp">らぬひかこともやとつゝましうてなとくるしけにおほいたれといとおしなとこ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1684-04.json" data-origname="seg" data-origatts="corresp">れかれきこえて中のさうしのくちにてたいめんしたまへりいと心はつかしけに</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1684-05.json" data-origname="seg" data-origatts="corresp">なまめきてまたこのたひはねひまさりたまひにけりとめもおとろくまてにほひ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1684-06.json" data-origname="seg" data-origatts="corresp">おほく人にもにぬようゐなとあなめてたの人やとのみゝえたまへるをひめ宮は</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1684-07.json" data-origname="seg" data-origatts="corresp">おもかけさらぬ人の御ことをさへおもひいてきこえ給にいとあはれとみたてま</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1684-08.json" data-origname="seg" data-origatts="corresp">つり給つきせぬ御ものかたりなともけふはこといみすへくやなといひさしつゝ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1684-09.json" data-origname="seg" data-origatts="corresp">わたらせ給へきところちかくこのころすくしてうつろひ侍へけれはよ中あか月</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1684-10.json" data-origname="seg" data-origatts="corresp">とつき〱しき人のいひ侍めるなにことのをりにもうとからすおほしのたまは</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1684-11.json" data-origname="seg" data-origatts="corresp">せは世に侍らむかきりはきこえさせうけ給はりてすくさまほしくなん侍るをい</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1684-12.json" data-origname="seg" data-origatts="corresp">かゝはおほしめすらむ人の心さま〱に侍る世なれはあいなくやなとひとかた</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1684-13.json" data-origname="seg" data-origatts="corresp">にもえこそおもひ侍らねときこえ給へはやとをはかれしと思心ふかくはへるを</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1684-14.json" data-origname="seg" data-origatts="corresp">ちかくなとのたまはするにつけてもよろつにみたれ侍りてきこえさせやるへき</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-pb><span hidden="" aria-hidden="true" data-original="true"><tei-pb n="1685" facs="#zone_1685" data-origname="pb" data-origatts="facs n" data-empty=""/></span><span class="Pb">Page <!-- -->1685</span></tei-pb>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1685-01.json" data-origname="seg" data-origatts="corresp">かたもなくなと所〱いひけちていみしく物あはれとおもひたまへるけはひな</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1685-02.json" data-origname="seg" data-origatts="corresp">といとようおほえたまへるを心からよその物にみなしつるといとくやしくおも</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1685-03.json" data-origname="seg" data-origatts="corresp">ひゐたまへれとかひなけれはそのよのことかけてもいはすわすれにけるにやと</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1685-04.json" data-origname="seg" data-origatts="corresp">みゆるまてけさやかにもてなしたまへり御まへちかきこうはいのいろもかもな</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1685-05.json" data-origname="seg" data-origatts="corresp">つかしきにうくひすたにみすくしかたけにうちなきてわたるめれはましてはる</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1685-06.json" data-origname="seg" data-origatts="corresp">やむかしのと心をまとはしたまふとちの御ものかたりにおりあはれなりかしか</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1685-07.json" data-origname="seg" data-origatts="corresp">せのさとふきいるゝにはなのかもまらうとの御にほひもたち花ならねとむかし</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1685-08.json" data-origname="seg" data-origatts="corresp">おもひいてらるゝつまなりつれ〱のまきらはしにも世のうきなくさめにも心</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1685-09.json" data-origname="seg" data-origatts="corresp">とゝめてもてあそひたまひし物をなと心にあまりたまへは</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1685-10.json" data-origname="seg" data-origatts="corresp">みる人もあらしにまよふ山さとにむかしおほゆる花のかそするいふとてな</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1685-11.json" data-origname="seg" data-origatts="corresp">くほのかにてたえ〱きこえたるをなつかしけにうちすんしなして</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1685-12.json" data-origname="seg" data-origatts="corresp">そてふれしむめはかはらぬにほひにてねこめうつろふやとやことなるたえ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1685-13.json" data-origname="seg" data-origatts="corresp">ぬなみたをさまよくのこひかくしてことおほくもあらすまたも猶かやうにてな</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1685-14.json" data-origname="seg" data-origatts="corresp">むなにこともきこえさせよかるへきなときこえをきてたち給ぬ御わたりにある</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-pb><span hidden="" aria-hidden="true" data-original="true"><tei-pb n="1686" facs="#zone_1686" data-origname="pb" data-origatts="facs n" data-empty=""/></span><span class="Pb">Page <!-- -->1686</span></tei-pb>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1686-01.json" data-origname="seg" data-origatts="corresp">へきことゝも人〱にのたまひをくこのやともりにかのひけかちのとのゐ人な</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1686-02.json" data-origname="seg" data-origatts="corresp">とはさふらふへけれはこのわたりのちかき御さうともなとにそのことゝもゝの</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1686-03.json" data-origname="seg" data-origatts="corresp">たまひあつけなとまめやかなることゝもをさへさためをき給弁そかやうの御と</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1686-04.json" data-origname="seg" data-origatts="corresp">もにもおもひかけすなかきいのちいとつらくおほえ侍るを人もゆゝしくみおも</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1686-05.json" data-origname="seg" data-origatts="corresp">ふへけれはいまは世にある物ともひとにしられ侍らしとてかたちもかへてける</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1686-06.json" data-origname="seg" data-origatts="corresp">をしゐてめしいてゝいとあはれとみたまふれいのむかし物かたりなとせさせ給</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1686-07.json" data-origname="seg" data-origatts="corresp">てこゝには猶とき〱はまいりくへきをいとたつきなく心ほそかるへきにかく</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1686-08.json" data-origname="seg" data-origatts="corresp">て物したまはんはいとあはれにうれしかるへきことになむなとえもいひやらす</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1686-09.json" data-origname="seg" data-origatts="corresp">なき給いとふにはえてのひ侍るいのちのつらくまたいかにせよとてうちすてさ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1686-10.json" data-origname="seg" data-origatts="corresp">せ給けんとうらめしくなへての世をおもひたまへしつむにつみもいかにふかく</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1686-11.json" data-origname="seg" data-origatts="corresp">侍らむと思けることゝもをうれへかけきこゆるもかたくなしけなれといとよく</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1686-12.json" data-origname="seg" data-origatts="corresp">いひなくさめ給いたくねひにたれとむかしきよけなりけるなこりをそきすてた</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1686-13.json" data-origname="seg" data-origatts="corresp">れはひたひのほとさまかはれるにすこしわかくなりてさるかたにみやひかなり</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1686-14.json" data-origname="seg" data-origatts="corresp">おもひわひてはなとかゝるさまにもなしたてまつらさりけむそれにのふるやう</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-pb><span hidden="" aria-hidden="true" data-original="true"><tei-pb n="1687" facs="#zone_1687" data-origname="pb" data-origatts="facs n" data-empty=""/></span><span class="Pb">Page <!-- -->1687</span></tei-pb>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1687-01.json" data-origname="seg" data-origatts="corresp">もやあらましさてもいかに心ふかくかたらひきこえてあらましなとひとかたな</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1687-02.json" data-origname="seg" data-origatts="corresp">らすおほえ給にこの人さへうらやましけれはかくろへたる木丁をすこしひきや</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1687-03.json" data-origname="seg" data-origatts="corresp">りてこまかにそかたらひ給けにむけにおもひほけたるさまなから物うちいひた</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1687-04.json" data-origname="seg" data-origatts="corresp">るけしきようゐくちおしからすゆへありける人のなこりとみえたり</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1687-05.json" data-origname="seg" data-origatts="corresp">さきにたつなみたのかはにみをなけは人にをくれぬいのちならましとうち</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1687-06.json" data-origname="seg" data-origatts="corresp">ひそみきこゆそれもいとつみふかゝなることにこそかのきしにいたることなと</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1687-07.json" data-origname="seg" data-origatts="corresp">かさしもあるましきことにてさへふかきそこにしつみすくさむもあいなしすへ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1687-08.json" data-origname="seg" data-origatts="corresp">てなへてむなしくおもひとるへき世になむなとの給</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1687-09.json" data-origname="seg" data-origatts="corresp">身をなけむなみたのかはにしつみてもこひしきせゝにわすれしもせしいか</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1687-10.json" data-origname="seg" data-origatts="corresp">ならむ世にすこしもおもひなくさむることありなむとはてもなき心ちし給かへ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1687-11.json" data-origname="seg" data-origatts="corresp">らむかたもなくなかめられて日もくれにけれとすゝろにたひねせむも人のとか</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1687-12.json" data-origname="seg" data-origatts="corresp">むることやとあひなけれは返たまひぬおもほしのたまへるさまをかたりて弁は</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1687-13.json" data-origname="seg" data-origatts="corresp">いとゝなくさめかたくゝれまとひたりみな人は心ゆきたるけしきにて物ぬひい</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1687-14.json" data-origname="seg" data-origatts="corresp">となみつゝおひゆかめるかたちもしらすつくろひさまよふにいよ〱やつして</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-pb><span hidden="" aria-hidden="true" data-original="true"><tei-pb n="1688" facs="#zone_1688" data-origname="pb" data-origatts="facs n" data-empty=""/></span><span class="Pb">Page <!-- -->1688</span></tei-pb>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1688-01.json" data-origname="seg" data-origatts="corresp">人はみないそきたつめるそてのうらにひとりもしほをたるゝあま哉とうれ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1688-02.json" data-origname="seg" data-origatts="corresp">へきこゆれは</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1688-03.json" data-origname="seg" data-origatts="corresp">しほたるゝあまの衣にことなれやうきたるなみにぬるゝわかそて世にすみ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1688-04.json" data-origname="seg" data-origatts="corresp">つかむこともいとありかたかるへきわさとおほゆれはさまにしたかひてこゝを</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1688-05.json" data-origname="seg" data-origatts="corresp">はあれはてしとなむおもふをさらはたいめんもありぬへけれとしはしのほとも</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1688-06.json" data-origname="seg" data-origatts="corresp">心ほそくてたちとまりたまふをみをくにいとゝ心もゆかすなむかゝるかたちな</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1688-07.json" data-origname="seg" data-origatts="corresp">る人もかならすひたふるにしもたえこもらぬわさなめるを猶世のつねにおもひ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1688-08.json" data-origname="seg" data-origatts="corresp">なして時〱もみえ給へなといとなつかしくかたらひ給むかしの人のもてつか</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1688-09.json" data-origname="seg" data-origatts="corresp">ひたまひしさるへき御てうとゝもなとはみなこの人にとゝめをき給てかく人よ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1688-10.json" data-origname="seg" data-origatts="corresp">りふかくおもひしつみたまへるをみれはさきの世もとりわきたるちきりもや物</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1688-11.json" data-origname="seg" data-origatts="corresp">したまひけむとおもふさへむつましくあはれになむとのたまふにいよ〱わら</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1688-12.json" data-origname="seg" data-origatts="corresp">はへのこひてなくやうに心おさめんかたなくおほゝれゐたりみなかきはらひよ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1688-13.json" data-origname="seg" data-origatts="corresp">ろつとりしたゝめて御くるまともよせて御せんの人〱四ゐ五ゐいとおほかり</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1688-14.json" data-origname="seg" data-origatts="corresp">御身つからもいみしうおはしまさまほしけれとこと〱しくなりて中〱あし</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-pb><span hidden="" aria-hidden="true" data-original="true"><tei-pb n="1689" facs="#zone_1689" data-origname="pb" data-origatts="facs n" data-empty=""/></span><span class="Pb">Page <!-- -->1689</span></tei-pb>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1689-01.json" data-origname="seg" data-origatts="corresp">かるへけれはたゝしのひたるさまにもてなして心もとなくおほさる中納言殿よ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1689-02.json" data-origname="seg" data-origatts="corresp">りも御せんの人かすおほくたてまつれたまへりおほかたのことをこそ宮よりは</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1689-03.json" data-origname="seg" data-origatts="corresp">おほしをきつめれこまやかなるうち〱の御あつかひはたゝこの殿よりおもひ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1689-04.json" data-origname="seg" data-origatts="corresp">よらぬことなくとふらひきこえ給日くれぬへしとうちにもとにもゝよほしきこ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1689-05.json" data-origname="seg" data-origatts="corresp">ゆるに心あはたゝしくいつちならむとおもふにもいとはかなくかなしとのみお</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1689-06.json" data-origname="seg" data-origatts="corresp">もほえたまふに御くるまにのるたいふの君といふ人のいふ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1689-07.json" data-origname="seg" data-origatts="corresp">ありふれはうれしきせにもあひけるを身をうちかはになけてましかはうち</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1689-08.json" data-origname="seg" data-origatts="corresp">ゑみたるを弁のあまの心はへにこよなうもあるかなと心つきなうもみたまふい</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1689-09.json" data-origname="seg" data-origatts="corresp">まひとり</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1689-10.json" data-origname="seg" data-origatts="corresp">すきにしかこひしきこともわすれねとけふはたまつもゆく心かないつれも</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1689-11.json" data-origname="seg" data-origatts="corresp">としへたる人〱にてみなかの御かたをは心よせましきこえためりしをいまは</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1689-12.json" data-origname="seg" data-origatts="corresp">かくおもひあらためてこといみするも心うの世やとおほえたまへは物もいはれ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1689-13.json" data-origname="seg" data-origatts="corresp">たまはすみちのほとのはるけくはけしき山みちのありさまをみたまふにそつら</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1689-14.json" data-origname="seg" data-origatts="corresp">きにのみおもひなされし人の御中のかよひをことはりのたえまなりけりとすこ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-pb><span hidden="" aria-hidden="true" data-original="true"><tei-pb n="1690" facs="#zone_1690" data-origname="pb" data-origatts="facs n" data-empty=""/></span><span class="Pb">Page <!-- -->1690</span></tei-pb>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1690-01.json" data-origname="seg" data-origatts="corresp">しおほししられける七日の月のさやかにさしいてたるかけおかしくかすみたる</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1690-02.json" data-origname="seg" data-origatts="corresp">をみたまひつゝいとゝほきにならはすくるしけれはうちなかめられて</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1690-03.json" data-origname="seg" data-origatts="corresp">なかむれは山よりいてゝゆく月も世にすみわひてやまにこそいれさまかは</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1690-04.json" data-origname="seg" data-origatts="corresp">りてつゐにいかならむとのみあやうくゆくすゑうしろめたきにとしころなにこ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1690-05.json" data-origname="seg" data-origatts="corresp">とをかおもひけんとそとりかへさまほしきやよひうちすきてそおはしつきたる</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1690-06.json" data-origname="seg" data-origatts="corresp">みもしらぬさまにめもかゝやくやうなる殿つくりのみつはよつはなる中にひき</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1690-07.json" data-origname="seg" data-origatts="corresp">いれてみやいつしかとまちおはしましけれは御くるまのもとに身つからよらせ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1690-08.json" data-origname="seg" data-origatts="corresp">給ておろしたてまつり給御しつらひなとあるへきかきりして女はうのつほね</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1690-09.json" data-origname="seg" data-origatts="corresp">〱まて御心とゝめさせ給けるほとしるくみえていとあらまほしけなりいかは</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1690-10.json" data-origname="seg" data-origatts="corresp">かりのことにかとみえたまへる御ありさまのにはかにかくさたまりたまへはお</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1690-11.json" data-origname="seg" data-origatts="corresp">ほろけならすおほさるゝことなめりと世人も心にくゝおもひおとろきけり中納</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1690-12.json" data-origname="seg" data-origatts="corresp">言は三条の宮にこの廿よ日のほとにわたりたまはんとてこのころはひゝにおは</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1690-13.json" data-origname="seg" data-origatts="corresp">しつゝみたまふにこの院ちかきほとなれはけはひもきかむとてよふくるまてお</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1690-14.json" data-origname="seg" data-origatts="corresp">はしけるにたてまつれたまへる御せんの人〱かへりまいりてありさまなとか</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-pb><span hidden="" aria-hidden="true" data-original="true"><tei-pb n="1691" facs="#zone_1691" data-origname="pb" data-origatts="facs n" data-empty=""/></span><span class="Pb">Page <!-- -->1691</span></tei-pb>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1691-01.json" data-origname="seg" data-origatts="corresp">たりきこゆいみしう御心にいりてもてなしたまふなるをきゝ給にもかつはうれ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1691-02.json" data-origname="seg" data-origatts="corresp">しき物からさすかにわか心なからおこかましくむねうちつふれてものにもかな</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1691-03.json" data-origname="seg" data-origatts="corresp">やとかへす〱ひとりこたれて</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1691-04.json" data-origname="seg" data-origatts="corresp">しなてるやにほのみつうみにこく舟のまほならねともあひみし物をとそい</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1691-05.json" data-origname="seg" data-origatts="corresp">ひくたさまほしき右のおほとのは六のきみを宮にたてまつり給はんことこの月</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1691-06.json" data-origname="seg" data-origatts="corresp">にとおほしさためたりけるにかくおもひのほかの人をこのほとよりさきにとお</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1691-07.json" data-origname="seg" data-origatts="corresp">ほしかほにかしつきすゑたまひてはなれおはすれはいと物しけにおほしたりと</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1691-08.json" data-origname="seg" data-origatts="corresp">きゝ給もいとおしけれは御ふみは時〱たてまつり給御もきのこと世にひゝき</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1691-09.json" data-origname="seg" data-origatts="corresp">ていそき給へるをのへたまはんも人わらへなるへけれははつかあまりにきせた</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1691-10.json" data-origname="seg" data-origatts="corresp">てまつり給おなしゆかりにめつらしけなくともこの中納言をよそ人にゆつらむ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1691-11.json" data-origname="seg" data-origatts="corresp">かくちおしきにさもやなしてましとしころ人しれぬものにおもひけむ人をもな</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1691-12.json" data-origname="seg" data-origatts="corresp">くなしてもの心ほそくなかめゐたまふなるをなとおほしよりてさるへき人して</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1691-13.json" data-origname="seg" data-origatts="corresp">けしきとらせ給けれと世のはかなさをめにちかくみしにいと心うく身もゆゝし</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1691-14.json" data-origname="seg" data-origatts="corresp">うおほゆれはいかにも〱さやうのありさまは物うくなんとすさましけなるよ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-pb><span hidden="" aria-hidden="true" data-original="true"><tei-pb n="1692" facs="#zone_1692" data-origname="pb" data-origatts="facs n" data-empty=""/></span><span class="Pb">Page <!-- -->1692</span></tei-pb>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1692-01.json" data-origname="seg" data-origatts="corresp">しきゝ給ていかてかこのきみさへおほな〱こといつることを物うくはもてな</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1692-02.json" data-origname="seg" data-origatts="corresp">すへきそとうらみたまひけれとしたしき御中らひなからも人さまのいと心はつ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1692-03.json" data-origname="seg" data-origatts="corresp">かしけに物し給へはえしゐてしもきこえうこかしたまはさりけりはなさかりの</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1692-04.json" data-origname="seg" data-origatts="corresp">ほと二条の院のさくらをみやり給にぬしなきやとのまつ思やられたまへは心や</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1692-05.json" data-origname="seg" data-origatts="corresp">すくやなとひとりこちあまりて宮の御もとにまいりたまへりこゝかちにおはし</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1692-06.json" data-origname="seg" data-origatts="corresp">ましつきていとようすみなれたまひにたれはめやすのわさやとみたてまつるも</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1692-07.json" data-origname="seg" data-origatts="corresp">のかられいのいかにそやおほゆる心のそひたるそあやしきやされとしちの御心</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1692-08.json" data-origname="seg" data-origatts="corresp">はへはいとあはれにうしろやすくそ思きこえ給けるなにくれと御物かたりきこ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1692-09.json" data-origname="seg" data-origatts="corresp">えかはしたまひてゆふつかた宮は内へまいり給はんとて御くるまのさうそくし</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1692-10.json" data-origname="seg" data-origatts="corresp">て人〱おほくまいりあつまりなとすれはたちいて給てたいの御かたへまいり</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1692-11.json" data-origname="seg" data-origatts="corresp">たまへり山さとのけはひゝきかへてみすのうち心にくゝすみなしておかしけな</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1692-12.json" data-origname="seg" data-origatts="corresp">るわらはのすきかけほのみゆるして御せうそこきこえ給へれは御しとねさしい</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1692-13.json" data-origname="seg" data-origatts="corresp">てゝむかしの心しれる人なるへしいてきて御返きこゆあさゆふのへたてもある</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1692-14.json" data-origname="seg" data-origatts="corresp">ましうおもふたまへらるゝほとなからそのことゝなくてきこえさせんも中〱</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-pb><span hidden="" aria-hidden="true" data-original="true"><tei-pb n="1693" facs="#zone_1693" data-origname="pb" data-origatts="facs n" data-empty=""/></span><span class="Pb">Page <!-- -->1693</span></tei-pb>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1693-01.json" data-origname="seg" data-origatts="corresp">なれ〱しきとかめやとつゝみ侍るほとに世中かはりにたる心ちのみそし侍る</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1693-02.json" data-origname="seg" data-origatts="corresp">や御まへのこすゑもかすみへたてゝみえ侍るにあはれなることおほくも侍るか</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1693-03.json" data-origname="seg" data-origatts="corresp">なときこえてうちなかめて物し給けしき心くるしけなるをけにおはせましかは</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1693-04.json" data-origname="seg" data-origatts="corresp">おほつかなからすゆき返かたみに花のいろとりのこゑをもをりにつけつゝすこ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1693-05.json" data-origname="seg" data-origatts="corresp">し心ゆきてすくしつへかりける世をなとおほしいつるにつけてはひたふるにた</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1693-06.json" data-origname="seg" data-origatts="corresp">えこもりたまへりしすまゐの心ほそさよりもあかすかなしうくちおしきことそ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1693-07.json" data-origname="seg" data-origatts="corresp">いとゝまさりける人〱も世のつねにうと〱しくなもてなしきこえさせ給そ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1693-08.json" data-origname="seg" data-origatts="corresp">かきりなき御心のほとをはいましもこそみたてまつりしらせたまふさまをもみ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1693-09.json" data-origname="seg" data-origatts="corresp">えたてまつらせたまふへけれなときこゆれとひとつてならすふとさしいてきこ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1693-10.json" data-origname="seg" data-origatts="corresp">えむことのなをつゝましきをやすらひたまふほとに宮いてたまはんとて御まか</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1693-11.json" data-origname="seg" data-origatts="corresp">り申しにわたりたまへりいときよらにひきつくろひけさうしたまひてみるかひ</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1693-12.json" data-origname="seg" data-origatts="corresp">ある御さまなり中納言はこなたになりけりとみたまひてなとかむけにさしはな</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1693-13.json" data-origname="seg" data-origatts="corresp">ちてはいたしすゑたまへる御あたりにはあまりあやしと思まてうしろやすかり</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1693-14.json" data-origname="seg" data-origatts="corresp">し心よせをわかためはおこかましきこともやとおほゆれとさすかにむけにへた</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-pb><span hidden="" aria-hidden="true" data-original="true"><tei-pb n="1694" facs="#zone_1694" data-origname="pb" data-origatts="facs n" data-empty=""/></span><span class="Pb">Page <!-- -->1694</span></tei-pb>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1694-01.json" data-origname="seg" data-origatts="corresp">ておほからむはつみもこそうれちかやかにてむかし物かたりもうちかたらひた</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1694-02.json" data-origname="seg" data-origatts="corresp">まへかしなときこえ給ものからさはありともあまり心ゆるひせんもまたいかに</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1694-03.json" data-origname="seg" data-origatts="corresp">そやうたかはしきしたの心にそあるやとうちかへしのたまへはひとかたならす</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1694-04.json" data-origname="seg" data-origatts="corresp">わつらはしけれとわか御心にもあはれふかくおもひしられにし人の御心をいま</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1694-05.json" data-origname="seg" data-origatts="corresp">しもをろかなるへきならねはかの人もおもひのたまふめるやうにいにしへの御</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1694-06.json" data-origname="seg" data-origatts="corresp">かはりとなすらへきこえてかうおもひしりけりとみえたてまつるふしもあらは</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1694-07.json" data-origname="seg" data-origatts="corresp">やとはおほせとさすかにとかくやとかた〱にやすからすきこえなしたまへは</tei-seg>
+            <tei-lb data-origname="lb" data-empty=""></tei-lb>
+            <tei-seg corresp="https://w3id.org/kouigenjimonogatari/api/items/1694-08.json" data-origname="seg" data-origatts="corresp">くるしうおほされけり</tei-seg>
+         </tei-p>
+      </tei-body>
+   </tei-text>
+</tei-tei></main></div><footer class="MuiBox-root css-16ybtzv"><h6 class="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter MuiTypography-gutterBottom css-a2yyq6">校異源氏物語 powerd by Gatsby CETEIcean</h6><p class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignCenter css-1yqxwau">機能検証を目的としたデモサイトです。</p><p class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter css-rdifmp">Copyright © <a class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1c0wj8h" href="https://researchmap.jp/nakamura.satoru">Satoru Nakamura</a> <!-- -->2022<!-- -->.</p></footer></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/48";window.___webpackCompilationHash="6bba0bda0bb6a017db68";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-754b380972b49b6e6bab.js"],"app":["/app-b8bd6b22acad81b8e664.js"],"component---src-gatsby-theme-ceteicean-components-ceteicean-js":["/component---src-gatsby-theme-ceteicean-components-ceteicean-js-f35633775778a2f0de7c.js"],"component---src-pages-404-js":["/component---src-pages-404-js-aa3f4854091050f2f651.js"],"component---src-pages-about-js":["/component---src-pages-about-js-ca371a07b495a05faee7.js"],"component---src-pages-index-js":["/component---src-pages-index-js-3fb153f4fe9f1788d729.js"]};/*]]>*/</script><script src="/gatsby-ceteicean-workshop/polyfill-754b380972b49b6e6bab.js" nomodule=""></script><script src="/gatsby-ceteicean-workshop/app-b8bd6b22acad81b8e664.js" async=""></script><script src="/gatsby-ceteicean-workshop/framework-9790f70302b3cfd34670.js" async=""></script><script src="/gatsby-ceteicean-workshop/webpack-runtime-0725eb6e6f19c39cec61.js" async=""></script></body></html>
