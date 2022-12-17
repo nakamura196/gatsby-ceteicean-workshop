@@ -1,6 +1,6 @@
-import React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
-import Layout from "../components/layout"
+import React from "react";
+import { useStaticQuery, graphql, Link } from "gatsby";
+import Layout from "../components/layout";
 
 const Index = () => {
   const data = useStaticQuery(graphql`
@@ -15,20 +15,28 @@ const Index = () => {
         }
       }
     }
-  `)
-  const teifiles = data.allCetei.nodes
+  `);
+  const teifiles = data.allCetei.nodes;
+  const ids = [];
+  for (let i = 1; i <= 54; i++) {
+    ids.push(("00" + i).slice(-2));
+  }
+
   return (
     <Layout location="home">
-      <h2>My edition</h2>
+      <h2>ドキュメントの一覧</h2>
+
       <div>
-        <h3>Documents:</h3>
-        <ul>{teifiles.map(file => (
-          <li><Link to={file.parent.name}>{file.parent.name}</Link></li>
-        ))}
+        <ul>
+          {ids.map((id) => (
+            <li key={id}>
+              <Link to={"/" + id}>{id}</Link>
+            </li>
+          ))}
         </ul>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default Index
+export default Index;

@@ -16,7 +16,13 @@
     "xslt": "node node_modules/xslt3/xslt3.js -xsl:scripts/notenumbers.xsl -export:scripts/notenumbers.sef.json -nogo"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.0",
+    "@mui/system": "^5.11.0",
     "gatsby": "^4.22.0",
+    "gatsby-plugin-material-ui": "^4.0.2",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },

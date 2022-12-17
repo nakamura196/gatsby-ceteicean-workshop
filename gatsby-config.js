@@ -2,7 +2,7 @@ const {applyxslt} = require('./scripts/applyxslt')
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby CETEIcean Workshop`,
+    title: `校異源氏物語 powerd by Gatsby CETEIcean`,
     menuLinks: [
       {
         name: "Home",
@@ -34,5 +34,6 @@ module.exports = {
         path: `static/tei`,
       },
     },
+    `gatsby-plugin-material-ui`
   ],
 }
