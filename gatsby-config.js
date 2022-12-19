@@ -1,6 +1,7 @@
 const {applyxslt} = require('./scripts/applyxslt')
 
 module.exports = {
+  pathPrefix: "/gatsby-ceteicean-workshop",
   siteMetadata: {
     title: `校異源氏物語 powerd by Gatsby CETEIcean`,
     menuLinks: [

@@ -7,6 +7,7 @@ import {
 import Pb from "./Pb"
 import Note from "./Note"
 import PlaceName from "./PlaceName"
+import Seg from "./Seg"
 import Layout from "../../components/layout"
 
 import "./ceteicean.css"
@@ -19,12 +20,15 @@ const MyCeteicean = ({pageContext}) => {
     "tei-teiheader": TeiHeader,
     "tei-note": Note,
     "tei-placename": PlaceName,
+    "tei-seg": Seg,
     "tei-pb": (props) => <Pb {...props}/>,
   }
 
   return(
     <Layout>
-      <Ceteicean pageContext={pageContext} routes={routes} />
+      <div style={{marginTop: 24, overflowX: "auto", writingMode: "vertical-rl", width: "100%"}}>
+        <Ceteicean pageContext={pageContext} routes={routes}/>
+      </div>
     </Layout>
   )
 

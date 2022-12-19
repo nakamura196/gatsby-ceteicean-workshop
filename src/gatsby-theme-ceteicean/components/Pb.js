@@ -10,7 +10,7 @@ const Pb = ({teiNode}) => {
   if (n) {
     return (
       <Behavior node={teiNode}>
-        <span className="Pb">Page {n}</span>
+        <div style={{marginRight: 16}} className="Pb">Page {n}</div>
       </Behavior>    
     )
   }

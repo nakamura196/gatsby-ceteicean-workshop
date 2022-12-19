@@ -13,7 +13,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "xslt": "node node_modules/xslt3/xslt3.js -xsl:scripts/notenumbers.xsl -export:scripts/notenumbers.sef.json -nogo"
+    "xslt": "node node_modules/xslt3/xslt3.js -xsl:scripts/notenumbers.xsl -export:scripts/notenumbers.sef.json -nogo",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -30,6 +31,7 @@
     "gatsby-source-filesystem": "^4.22.0",
     "gatsby-theme-ceteicean": "^3.2.0",
     "gatsby-transformer-ceteicean": "^1.2.0",
+    "gh-pages": "^4.0.0",
     "saxon-js": "^2.4.0",
     "xslt3": "^2.4.0"
   }
