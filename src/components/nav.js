@@ -12,7 +12,7 @@ const Nav = ({ location, title, menuLinks }) => {
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          <Link style={{color: "inherit"}} to="/">
+          <Link style={{ color: "inherit" }} to="/">
             {title}
           </Link>
         </Typography>
@@ -23,7 +23,9 @@ const Nav = ({ location, title, menuLinks }) => {
             key={m.name}
             className={location === m.name.toLowerCase() ? "active" : ""}
           >
-            <Link style={{color: "inherit"}} to={m.link}>{m.name}</Link>
+            <Link style={{ color: "inherit" }} to={m.link}>
+              {m.name}
+            </Link>
           </Button>
         ))}
       </Toolbar>

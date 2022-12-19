@@ -1,20 +1,22 @@
-import React from "react"
-import { Behavior } from "gatsby-theme-ceteicean/src/components/Behavior"
+import React from "react";
+import { Behavior } from "gatsby-theme-ceteicean/src/components/Behavior";
 
-import "./pb.css"
+import "./pb.css";
 
-const Pb = ({teiNode}) => {
-  const pb = teiNode
-  const n = pb.getAttribute('n') || ''
+const Pb = ({ teiNode }) => {
+  const pb = teiNode;
+  const n = pb.getAttribute("n") || "";
 
   if (n) {
     return (
       <Behavior node={teiNode}>
-        <div style={{marginRight: 16}} className="Pb">Page {n}</div>
-      </Behavior>    
-    )
+        <div className="Pb">
+          Page {n}
+        </div>
+      </Behavior>
+    );
   }
-  return null
-}
+  return null;
+};
 
-export default Pb
+export default Pb;
