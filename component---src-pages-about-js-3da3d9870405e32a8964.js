@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_ceteicean_workshop=self.webpackChunkgatsby_ceteicean_workshop||[]).push([[682],{4633:function(e,t,n){n.r(t);var a=n(7294),c=n(5156);t.default=function(){return a.createElement(c.Z,{location:"about"},a.createElement("h2",null,"このサイトについて"),a.createElement("div",null,a.createElement("p",null,"校異源氏物語テキストDBで公開されているTEI/XMLデータを利用しています。")))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-3da3d9870405e32a8964.js.map
